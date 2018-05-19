@@ -1,11 +1,9 @@
 
-import smtplib, poplib, email.utils, datetime
+import smtplib, poplib, email.utils
 from time import sleep
 import email.mime.text, email.mime.image, email.mime.multipart, email.mime.application
 import praw
 import os, glob, random
-
-now = datetime.datetime.now()
 
 emailA = input('Please Enter the Email Address ')
 emailPass = input('Please Enter the Email Password ')
